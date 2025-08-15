@@ -1,0 +1,16 @@
+name: JoinSpawn
+main: jp.example.joinspawn.JoinSpawn
+version: 1.0
+api-version: 1.21
+author: YourName
+description: Always teleports players to a fixed location on join.
+
+commands:
+  setjp:
+    description: Set join spawn by coordinates
+    usage: /<command> <x> <y> <z> [yaw] [pitch]
+    permission: joinspawn.set
+permissions:
+  joinspawn.set:
+    description: Allows setting the join spawn point
+    default: op
